@@ -33,9 +33,9 @@ const App = () => {
   return (
     <Container>
       <FormattedTime time={time}>{time}</FormattedTime>
-      <Button value={start}>start</Button>
-      <Button value={stop}>stop</Button>
-      <Button value={reset}>reset</Button>
+      <Button action={start}>start</Button>
+      <Button action={stop}>stop</Button>
+      <Button action={reset}>reset</Button>
     </Container>
   );
 }
